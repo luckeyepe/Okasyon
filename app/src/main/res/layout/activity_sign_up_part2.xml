@@ -40,7 +40,7 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/first_name"
                 android:textColorHint="@android:color/white"
-                android:textColorLink="@android:color/holo_blue_dark" />
+                android:textColorLink="@android:color/holo_blue_dark" android:id="@+id/Sign2_txt_fname"/>
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -63,7 +63,7 @@
                 android:shadowColor="@color/colorAccent"
                 android:textColor="@android:color/black"
                 android:textColorHint="@android:color/white"
-                android:textColorLink="@android:color/holo_blue_dark" />
+                android:textColorLink="@android:color/holo_blue_dark" android:id="@+id/Sign2_txt_ContactNum"/>
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -83,7 +83,7 @@
                 android:layout_height="wrap_content"
                 android:hint="Last Name"
                 android:textColorHint="@android:color/white"
-                android:textColorLink="@android:color/holo_blue_dark" />
+                android:textColorLink="@android:color/holo_blue_dark" android:id="@+id/Sign2_txt_lname"/>
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -104,7 +104,7 @@
                 android:layout_height="wrap_content"
                 android:hint="Address"
                 android:textColorHint="@android:color/white"
-                android:textColorLink="@android:color/holo_blue_dark" />
+                android:textColorLink="@android:color/holo_blue_dark" android:id="@+id/Sign2_txt_address"/>
     </android.support.design.widget.TextInputLayout>
 
 
@@ -126,7 +126,7 @@
                 android:layout_height="wrap_content"
                 android:hint="Date Of Birth"
                 android:textColorHint="@android:color/white"
-                android:textColorLink="@android:color/holo_blue_dark" />
+                android:textColorLink="@android:color/holo_blue_dark" android:id="@+id/Sign2_txt_dateofbirth"/>
     </android.support.design.widget.TextInputLayout>
 
     <Spinner
@@ -155,7 +155,7 @@
             app:srcCompat="@drawable/account" />
 
     <CheckBox
-            android:id="@+id/checkBox"
+            android:id="@+id/Sign2_chekbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -169,7 +169,7 @@
             app:layout_constraintEnd_toStartOf="@+id/img_btn_next1"
             app:layout_constraintHorizontal_bias="0.958"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Spinner" />
+            app:layout_constraintTop_toBottomOf="@+id/Spinner"/>
 
     <ImageButton
             android:id="@+id/img_btn_back"

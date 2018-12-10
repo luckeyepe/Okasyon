@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:hint="Email Address"
                 android:textColorHint="@android:color/white"
-                android:textColorLink="@android:color/holo_blue_dark" android:id="@+id/txt_email"/>
+                android:textColorLink="@android:color/holo_blue_dark" android:id="@+id/Sign1_txt_email"/>
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -56,7 +56,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
-                android:textColorLink="@android:color/holo_blue_dark" android:id="@+id/txt_confirmpassword"/>
+                android:textColorLink="@android:color/holo_blue_dark" android:id="@+id/sign1_txt_confirmpassword"/>
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -82,7 +82,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:inputType="textPassword"
-                android:textColorLink="@android:color/holo_blue_dark" android:id="@+id/txt_password"/>
+                android:textColorLink="@android:color/holo_blue_dark" android:id="@+id/sign1_txt_password"/>
     </android.support.design.widget.TextInputLayout>
 
     <ImageView
